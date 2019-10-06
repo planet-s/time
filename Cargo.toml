@@ -16,7 +16,7 @@ travis-ci = { repository = "rust-lang-deprecated/time" }
 appveyor = { repository = "alexcrichton/time" }
 
 [dependencies]
-libc = "0.2.1"
+libc = "0.2"
 rustc-serialize = { version = "0.3", optional = true }
 
 [target.'cfg(target_os = "redox")'.dependencies]
